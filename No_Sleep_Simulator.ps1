@@ -1,4 +1,4 @@
-﻿Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Windows.Forms
 
 function Get-Duration {
     $form = New-Object System.Windows.Forms.Form
@@ -54,12 +54,18 @@ do {
         $newY = $pos.Y + 10
         [System.Windows.Forms.Cursor]::Position = New-Object System.Drawing.Point($newX, $newY)
 
+        # Pression touche
+        [System.Windows.Forms.SendKeys]::SendWait("{A}")  
+
         Start-Sleep -Seconds 5
 
         # Revenir position de base curseur
         $newX = $pos.X
         $newY = $pos.Y
         [System.Windows.Forms.Cursor]::Position = New-Object System.Drawing.Point($newX, $newY)
+
+        # Pression autre touche
+        [System.Windows.Forms.SendKeys]::SendWait("{B}") 
 
         Start-Sleep -Seconds 5
     }
