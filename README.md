@@ -17,7 +17,7 @@ Ou
 Sur le bureau --> Clique droit --> Nouveau --> Raccourci --> {url exe de votre powershell} -WindowStyle Hidden -ExecutionPolicy Bypass -File "{url ps1 de No_Sleep_Simulator}"  
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\Users\votre_user\Downloads\No_Sleep_Simulator.ps1"
 
-## Utilisation
+## Transformation en executable
 
 - **Executable** : Télécharger l'executable et le placer sur le bureau, ou créer un raccourci de l'exe et faire de même
 - **Modification du script** : Ouvrir le .PS1, modifier comme voulu puis utiliser PS2EXE
