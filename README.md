@@ -8,6 +8,10 @@ StayActiveScript est un outil PowerShell conçu pour empêcher votre ordinateur 
 - **Interface utilisateur simple** : Permet aux utilisateurs de définir la durée pendant laquelle l'ordinateur doit rester actif via une interface graphique simple
 - **Demande de prolongation** : À la fin de la durée spécifiée, l'utilisateur est invité à décider s'il souhaite continuer à garder l'ordinateur actif
 
+## Installation sur Windows
+
+Pour Windows, exécuter le fichier No_Sleep_Simulator.exe, quand Windows défend votre ordinateur apparait, cliquer sur Informations complémentaires, puis Exécuter quand même, vous n'aurez plus qu'à suivre les indications de l'installeur.
+
 ## Utilisation
 
 - **Executable** : Télécharger l'executable et le placer sur le bureau, ou créer un raccourci de l'exe et faire de même
