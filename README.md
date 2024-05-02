@@ -22,3 +22,11 @@ Pour Windows, exécuter le fichier No_Sleep_Simulator.exe, quand Windows défend
 
 Install-Module -Name ps2exe -Scope CurrentUser  
 Invoke-PS2EXE -inputFile "Votre_chemin_vers_No_Sleep_Simulator.ps1" -outputFile "Le_chemin_voulu_vers_nouveau_fichier_No_Sleep_Simulator.exe" -noConsole
+
+## Clause de non-responsabilité
+
+**Avertissement de responsabilité** : L'auteur de ce logiciel ("No Sleep Simulator") ne garantit pas que ce dernier soit exempt d'erreurs et n'assume aucune responsabilité pour les dommages résultant de son téléchargement ou de son utilisation. Ce logiciel est fourni "tel quel", sans garantie d'aucune sorte, expresse ou implicite, incluant, mais sans s'y limiter, les garanties de commercialisation ou d'adaptation à un but particulier.
+
+**Utilisation à vos propres risques** : En téléchargeant ou en utilisant "No Sleep Simulator", vous acceptez que vous utilisez le logiciel à votre propre risque et responsabilité. Vous êtes seul responsable de tout dommage à votre système informatique ou de toute perte de données qui résulterait de l'utilisation de ce logiciel.
+
+**Consentement** : Toute utilisation du logiciel signifie l'acceptation de cette clause de non-responsabilité.
