@@ -12,6 +12,11 @@ StayActiveScript est un outil PowerShell conçu pour empêcher votre ordinateur 
 
 Pour Windows, exécuter le fichier No_Sleep_Simulator.exe, quand Windows défend votre ordinateur apparait, cliquer sur Informations complémentaires, puis Exécuter quand même, vous n'aurez plus qu'à suivre les indications de l'installeur.
 
+Ou
+
+Sur le bureau --> Clique droit --> Nouveau --> Raccourci --> <url exe de votre powershell> -ExecutionPolicy Bypass -File "<url ps1 de No_Sleep_Simulator>"  
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Users\votre_user\Downloads\No_Sleep_Simulator.ps1"
+
 ## Utilisation
 
 - **Executable** : Télécharger l'executable et le placer sur le bureau, ou créer un raccourci de l'exe et faire de même
