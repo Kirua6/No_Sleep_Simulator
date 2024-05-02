@@ -14,8 +14,8 @@ Pour Windows, exécuter le fichier No_Sleep_Simulator.exe, quand Windows défend
 
 Ou
 
-Sur le bureau --> Clique droit --> Nouveau --> Raccourci --> {url exe de votre powershell} -ExecutionPolicy Bypass -File "{url ps1 de No_Sleep_Simulator}"  
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Users\votre_user\Downloads\No_Sleep_Simulator.ps1"
+Sur le bureau --> Clique droit --> Nouveau --> Raccourci --> {url exe de votre powershell} -WindowStyle Hidden -ExecutionPolicy Bypass -File "{url ps1 de No_Sleep_Simulator}"  
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\Users\votre_user\Downloads\No_Sleep_Simulator.ps1"
 
 ## Utilisation
 
