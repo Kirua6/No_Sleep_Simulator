@@ -16,5 +16,5 @@ StayActiveScript est un outil PowerShell conçu pour empêcher votre ordinateur 
 
 ## Commandes
 
-Install-Module -Name ps2exe -Scope CurrentUser
+Install-Module -Name ps2exe -Scope CurrentUser  
 Invoke-PS2EXE -inputFile "Votre_chemin_vers_No_Sleep_Simulator.ps1" -outputFile "Le_chemin_voulu_vers_nouveau_fichier_No_Sleep_Simulator.exe" -noConsole
