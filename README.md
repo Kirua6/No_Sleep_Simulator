@@ -1,6 +1,6 @@
 # No_Sleep_Simulator
 
-StayActiveScript est un outil PowerShell conçu pour empêcher votre ordinateur de se mettre en veille automatiquement. Ce script simule des mouvements de souris périodiques pour que le système d'exploitation pense que l'utilisateur est toujours actif
+StayActiveScript est un outil PowerShell conçu pour empêcher votre ordinateur de se mettre en veille automatiquement. Ce script simule des mouvements de souris et des cliques de touches périodiques pour que le système d'exploitation pense que l'utilisateur est toujours actif
 
 ## Fonctionnalités
 
